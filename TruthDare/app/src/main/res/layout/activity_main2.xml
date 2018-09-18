@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/tdi"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/truth"
+
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/buttonshapetr"
+        android:shadowColor="#A1A1A1"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="8"
+        android:text="Truth..!"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dare"
+
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignStart="@+id/truth"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/buttonshapedr"
+        android:shadowColor="#A1A1A1"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="8"
+        android:text="Dare..!"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="271dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:text="select your option from below:"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
